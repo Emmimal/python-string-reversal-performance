@@ -26,7 +26,7 @@ Very fast
 
 Creates a full copy in memory
 
-2. Iterator-Based Reversal (Memory Efficient)
+###  2. Iterator-Based Reversal (Memory Efficient)
 reversed_text = "".join(reversed(text))
 
 
@@ -36,7 +36,7 @@ Safer for large files
 
 Lower memory pressure
 
-3. Manual Loop (Educational Only)
+###  3. Manual Loop (Educational Only)
 result = ""
 for char in text:
     result = char + result
@@ -46,12 +46,12 @@ Avoid in real applications
 
 Poor performance at scale
 
-🔍 Performance & Memory Trade-offs
+###  🔍 Performance & Memory Trade-offs
 Method	Speed	Memory	Recommended For
 Slicing	Fastest	High	Small strings
 Iterator	Medium	Low	Large files
 Loop	Slow	High	Learning only
-🤖 Why AI Models Fail at String Reversal
+###  🤖 Why AI Models Fail at String Reversal
 
 Language models operate on tokens, not characters.
 This makes tasks like exact reversal or letter counting unreliable.
@@ -81,3 +81,8 @@ AI system design lessons
 Read the full article here:
 
 🔗 https://emitechlogic.com/how-to-reverse-a-string-in-python/
+
+Feel free to star/fork if useful! Contributions welcome.
+Author: Emmimal Alexander
+Website: https://emitechlogic.com
+LinkedIn: https://www.linkedin.com/in/emmimal-alexander/
